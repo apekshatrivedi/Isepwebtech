@@ -1,0 +1,48 @@
+
+.form-style-1{
+    max-width: 450px;
+
+}
+
+
+
+fieldset{
+    color: red;
+    border-color: red;
+    padding:20px;
+    margin:0;
+    vertical-align:middle;
+    display:block;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+   font-weight: 600;
+}
+label{
+    float: left;
+    display: block;
+    color: black;
+   font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+   font-weight: 600;
+
+}
+
+
+
+input{
+
+float:right;
+display:inline;
+    border-color: red;
+    border-radius:5px;
+    background-color: #FFF3F3;
+}
+
+input:focus{
+    background-color: white;
+}
+
+.form-style-2{
+    float: left;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+   font-weight: 600;
+}
+
