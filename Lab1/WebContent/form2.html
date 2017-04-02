@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MVC</title>
+</head>
+<body>
+<h1>MVC</h1>
+The form will show old view for birthday's before 1990 and young view for birthday's after 1990
+<br><form name = "myform" method = "post" action= "Controller">
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  <br>
+  Birthday:<br>
+  <input type="date" name="bday" placeholder = "dd-mm-yyyy">
+  <br>
+  Gender:<br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="submit" value="Submit">
+</form>
+<form action= '/Lab1/logout'method='post'><input type='submit' value='Home'/></form>
+</body>
+</html>
